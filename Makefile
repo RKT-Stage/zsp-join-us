@@ -7,6 +7,7 @@
 
 SHELL := /bin/bash
 IMAGE=quay.io/riotkit/join-zsp
+SUDO=sudo
 
 help: ## This help screen
 	@grep -E '^[a-zA-Z\-\_0-9\.@]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
