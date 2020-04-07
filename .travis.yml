@@ -1,0 +1,11 @@
+language: python
+if: branch = master or tag IS present
+python: 3.6
+services:
+    - docker
+
+before_script:
+    - echo "$QUAY_PASSWORD" | sudo docker login -u "$QUAY_USERNAME" --password-stdin quay.io
+
+script:
+    - make build push

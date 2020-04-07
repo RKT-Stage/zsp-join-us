@@ -1,0 +1,8 @@
+baseURL: "https://dolacz.zsp.net.pl"
+languageCode: "pl-pl"
+title: "Bądź bezpieczniejszy, bądź zorganizowany! Dołącz do ZSP!"
+theme: "dolacz-zsp-net-pl"
+
+params:
+    keywords: "założyć związek zawodowy, związki zawodowe, przystąpić do związku, zsp, związek syndykalistów polski, organizacja pracownicza, obrona praw pracowników, kodeks pracy, walka pracownicza, syndykalizm, anarchosyndykalizm, umowa zlecenie, umowa o pracę, umowa o dzieło, zoganizuj się, umowy śmieciowe"
+    front_title: "Razem jesteśmy silni i bezpieczni! Dołącz do nas!"
