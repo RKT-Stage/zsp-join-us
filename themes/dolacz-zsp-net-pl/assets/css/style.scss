@@ -193,6 +193,76 @@ h1, h2, h3, h4, h5, h6, figure {
     }
 }
 
+/**
+ * engagement
+ */
+
+.TabsList {
+    display: flex;
+    position: relative;
+    height: 90vh;
+    background-image: url(../images/bg_1.jpg);
+    background-position: top center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.tabList {
+  width: 30%;
+  height: 90vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  border-right: 1px solid #2e876e;
+  transition: all 0.8s;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabList h5 {
+  font-family: "CIRCULARSTD-BOOK";
+  font-size: 25px;
+  color: white;
+}
+
+.tabList:hover {
+  cursor: pointer;
+  background: white;
+  border-top: 8px solid #2ed4a4;
+  border-right: 0;
+  height: 100vh;
+  position: relative;
+  bottom: 10vh;
+  box-shadow: 0px 5px 10px #7e7d7d;
+}
+
+.tabList:hover .offerHead {
+  color: #3b66f6 !important;
+  font-family: "CIRCULARSTD-BLACK";
+  font-weight: 800;
+}
+
+.offerPara {
+  visibility: hidden;
+  height: 0;
+}
+
+.offersTab {
+    margin-bottom: 100px;
+}
+
+.tabList:hover .offerPara {
+  font-family: "CIRCULARSTD-BOOK";
+  visibility: visible;
+  font-size: 20px;
+  margin-top: 20px;
+  color: black !important;
+  height: auto;
+}
+
 .gtco-nav {
 	position: fixed;
 	top: 0;
