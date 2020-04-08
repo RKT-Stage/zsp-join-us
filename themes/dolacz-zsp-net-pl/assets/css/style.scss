@@ -726,6 +726,7 @@ $tabHeight: 550px;
 }
 
 #gtco-about,
+#gtco-about-headline,
 #gtco-practice-areas,
 #gtco-our-team,
 #gtco-contact {
@@ -733,7 +734,11 @@ $tabHeight: 550px;
 	clear: both;
 }
 
-#gtco-practice-areas, #gtco-contact {
+#gtco-about-headline {
+	padding-bottom: 0;
+}
+
+#gtco-practice-areas, #gtco-contact, #gtco-about-headline {
 	background-color: #f7f7f7;
 }
 
