@@ -291,6 +291,10 @@ $tabHeight: 550px;
 		height: $tabHeight;
 		position: initial;
 	}
+
+	.engagementContainer {
+		margin-bottom: 250px !important;
+	}
 }
 
 @media (min-width: 930px) {
@@ -723,6 +727,10 @@ $tabHeight: 550px;
 #gtco-contact {
 	padding: 7em 0;
 	clear: both;
+}
+
+#gtco-practice-areas, #gtco-contact {
+	background-color: #f7f7f7;
 }
 
  #gtco-about {
