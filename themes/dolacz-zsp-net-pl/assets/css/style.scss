@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 $tabHeight: 550px;
 
-.engagementTabs {
+.engagement-tabs {
     display: flex;
     position: relative;
     height: $tabHeight;
@@ -209,7 +209,7 @@ $tabHeight: 550px;
 	background-position: 0 0;
 }
 
-.engagementTab {
+.engagement-tab {
 	width: 30%;
 	height: $tabHeight;
 	color: white;
@@ -224,7 +224,7 @@ $tabHeight: 550px;
 	flex-direction: column;
 }
 
-.engagementTab h5 {
+.engagement-tab h5 {
 	font-family: "open sans", Arial, sans-serif;
 	font-size: 25px;
 	color: white;
@@ -232,7 +232,7 @@ $tabHeight: 550px;
 	text-align: center;
 }
 
-.engagementTab:hover {
+.engagement-tab:hover {
 	cursor: pointer;
 	background: white;
 	border-top: 8px solid $brand-primary;
@@ -244,14 +244,14 @@ $tabHeight: 550px;
 	opacity: 0.9;
 }
 
-.engagementTab:hover .offerHead {
+.engagement-tab:hover .offerHead {
 	color: $brand-primary !important;
 	font-family: "open sans", Arial, sans-serif;
 	font-weight: 800;
 	text-align: center;
 }
 
-.engagementTypeDescription {
+.engagement-type-description {
 	visibility: hidden;
 	height: 0;
 	color: white !important;
@@ -262,7 +262,7 @@ $tabHeight: 550px;
 	margin-bottom: 100px;
 }
 
-.engagementTab:hover .engagementTypeDescription {
+.engagement-tab:hover .engagement-type-description {
 	font-family: "open sans", Arial, sans-serif;
 	visibility: visible;
 	font-size: 20px;
@@ -271,23 +271,27 @@ $tabHeight: 550px;
 	height: auto;
 }
 
+.zsp-sections {
+	text-align: left;
+}
+
 @media (max-width: 930px) {
-	.engagementTabs {
+	.engagement-tabs {
 		display: inline-block;
 		height: $tabHeight * 4;
 	}
 
-	.engagementTab {
+	.engagement-tab {
 		width: 100%;
 		display: inline-table;
 		border-bottom: solid 2px white;
 	}
 
-	.engagementTypeDescription {
+	.engagement-type-description {
 		visibility: visible;
 	}
 
-	.engagementTab:hover {
+	.engagement-tab:hover {
 		height: $tabHeight;
 		position: initial;
 	}
@@ -301,20 +305,20 @@ $tabHeight: 550px;
 	@media (max-width: 1748px) {
 		$tabExtendedHeight: $tabHeight + 5px;
 
-		.engagementTabs {
+		.engagement-tabs {
 			height: $tabExtendedHeight;
 		}
 
-		.engagementTab {
+		.engagement-tab {
 			height: $tabExtendedHeight;
 			padding: 20px;
 		}
 
-		.engagementTab:hover {
+		.engagement-tab:hover {
 			height: $tabExtendedHeight + 100px;
 		}
 
-		.engagementTypeDescription {
+		.engagement-type-description {
 			font-size: 15px !important;
 		}
 	}
