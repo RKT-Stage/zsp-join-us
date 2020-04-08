@@ -199,74 +199,121 @@ h1, h2, h3, h4, h5, h6, figure {
 
 $tabHeight: 550px;
 
-.TabsList {
+.engagementTabs {
     display: flex;
     position: relative;
     height: $tabHeight;
     background-image: url(../images/bg_1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 0px 0px;
+	background-position: 0 0;
 }
 
-.tabList {
-  width: 30%;
-  height: $tabHeight;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 60px;
-  border-right: 1px solid white;
-  background-color: black;
-  opacity: 0.7;
-  transition: all 0.8s;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.engagementTab {
+	width: 30%;
+	height: $tabHeight;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 60px;
+	border-right: 1px solid white;
+	background-color: black;
+	opacity: 0.7;
+	transition: all 0.8s;
+	flex-direction: column;
 }
 
-.tabList h5 {
-  font-family: "CIRCULARSTD-BOOK";
-  font-size: 25px;
-  color: white;
+.engagementTab h5 {
+	font-family: "open sans", Arial, sans-serif;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.engagementTab:hover {
+	cursor: pointer;
+	background: white;
+	border-top: 8px solid $brand-primary;
+	border-right: 0;
+	height: $tabHeight + 100px;
+	position: relative;
+	bottom: 5vh;
+	box-shadow: 0 5px 10px #7e7d7d;
+	opacity: 0.9;
+}
+
+.engagementTab:hover .offerHead {
+	color: $brand-primary !important;
+	font-family: "open sans", Arial, sans-serif;
+	font-weight: 800;
+	text-align: center;
+}
+
+.engagementTypeDescription {
+	visibility: hidden;
+	height: 0;
+	color: white !important;
 	font-weight: bold;
 }
 
-.tabList:hover {
-  cursor: pointer;
-  background: white;
-  border-top: 8px solid $brand-primary;
-  border-right: 0;
-  height: $tabHeight + 100px;
-  position: relative;
-  bottom: 10vh;
-  box-shadow: 0px 5px 10px #7e7d7d;
+.engagementContainer {
+	margin-bottom: 100px;
 }
 
-.tabList:hover .offerHead {
-  color: $brand-primary !important;
-  font-family: "CIRCULARSTD-BLACK";
-  font-weight: 800;
+.engagementTab:hover .engagementTypeDescription {
+	font-family: "open sans", Arial, sans-serif;
+	visibility: visible;
+	font-size: 20px;
+	margin-top: 20px;
+	color: black !important;
+	height: auto;
 }
 
-.offerPara {
-  visibility: hidden;
-  height: 0;
-  color: white !important;
+@media (max-width: 930px) {
+	.engagementTabs {
+		display: inline-block;
+		height: $tabHeight * 4;
+	}
+
+	.engagementTab {
+		width: 100%;
+		display: inline-table;
+		border-bottom: solid 2px white;
+	}
+
+	.engagementTypeDescription {
+		visibility: visible;
+	}
+
+	.engagementTab:hover {
+		height: $tabHeight;
+		position: initial;
+	}
 }
 
-.offersTab {
-    margin-bottom: 100px;
-}
+@media (min-width: 930px) {
+	@media (max-width: 1748px) {
+		$tabExtendedHeight: $tabHeight + 5px;
 
-.tabList:hover .offerPara {
-  font-family: "CIRCULARSTD-BOOK";
-  visibility: visible;
-  font-size: 20px;
-  margin-top: 20px;
-  color: black !important;
-  height: auto;
+		.engagementTabs {
+			height: $tabExtendedHeight;
+		}
+
+		.engagementTab {
+			height: $tabExtendedHeight;
+			padding: 20px;
+		}
+
+		.engagementTab:hover {
+			height: $tabExtendedHeight + 100px;
+		}
+
+		.engagementTypeDescription {
+			font-size: 15px !important;
+		}
+	}
 }
 
 .gtco-nav {
