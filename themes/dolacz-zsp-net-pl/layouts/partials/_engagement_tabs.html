@@ -1,0 +1,16 @@
+<section class="engagementContainer">
+    <div class="engagement-tabs">
+
+        {{ range $tab := .tabs }}
+        <div class="engagement-tab">
+            <h5 class="offerHead">{{ safeHTML $tab.title }}</h5>
+            <p class="engagement-type-description">
+                {{ safeHTML $tab.text }}
+            </p>
+            <div class="engagement-checkbox">
+                <img src="{{ if eq $tab.selected true }}images/icons/checkbox-checked.png{{ else }}images/icons/checkbox-unchecked.png{{ end }}" data-role="{{ $tab.name }}"/> WYBIERAM
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>

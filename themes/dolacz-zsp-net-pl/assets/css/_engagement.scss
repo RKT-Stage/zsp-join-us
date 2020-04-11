@@ -2,7 +2,7 @@
  * engagement
  */
 
-$tabHeight: 550px;
+$tabHeight: 300px;
 
 .engagement-tabs {
   display: flex;
@@ -11,7 +11,7 @@ $tabHeight: 550px;
   background-image: url(../images/bg_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: 0 -701px;
 }
 
 .engagement-tab {
@@ -21,7 +21,7 @@ $tabHeight: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px;
+  padding: 35px;
   border-right: 1px solid white;
   background-color: black;
   opacity: 0.7;
@@ -42,10 +42,10 @@ $tabHeight: 550px;
   background: white;
   border-top: 8px solid $brand-primary;
   border-right: 0;
-  height: $tabHeight + 50px;
+  height: $tabHeight + 200px;
   position: relative;
-  bottom: 5vh;
-  box-shadow: 0 5px 10px #7e7d7d;
+  bottom: 12vh;
+  box-shadow: 0 3px 8px #7e7d7d;
   opacity: 0.95;
 }
 
@@ -70,10 +70,18 @@ $tabHeight: 550px;
 .engagement-tab:hover .engagement-type-description {
   font-family: "open sans", Arial, sans-serif;
   visibility: visible;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 20px;
   color: black !important;
   height: auto;
+}
+
+.engagement-checkbox img {
+  width: 35px;
+}
+
+.engagement-tab:hover .engagement-checkbox {
+  color: black;
 }
 
 @media (max-width: 930px) {

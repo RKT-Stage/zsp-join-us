@@ -5,7 +5,7 @@ theme: "dolacz-zsp-net-pl"
 
 params:
     keywords: "założyć związek zawodowy, związki zawodowe, przystąpić do związku, zsp, związek syndykalistów polski, organizacja pracownicza, obrona praw pracowników, kodeks pracy, walka pracownicza, syndykalizm, anarchosyndykalizm, umowa zlecenie, umowa o pracę, umowa o dzieło, zoganizuj się, umowy śmieciowe"
-    front_title: "Razem jesteśmy silni i bezpieczni! Dołącz do nas!"
+    front_title: "Solidarność! Pomoc wzajemna! Dołącz do nas!"
 
     join_us:
         variant_join_existing_section:
@@ -27,3 +27,39 @@ params:
 
                 - title: Masz dodatkowe pytania?
                   text: Odezwij się do nas bezpośrednio, kontakt do nas znajdziesz na samym dole tej strony - w stopce :-)
+
+    engagement:
+        tabs:
+            - name: sympathetic
+              title: Będę sympatykiem(czką)!
+              selected: false
+              text: >
+                  Nie mam możliwości aktywnie uczestniczyć, ale mogę od czasu do czasu wykonywać któreś z czynności:<br/><br/>
+                  - Przyjść na pikietę, demonstrację<br/>
+                  - Rozkleić plakaty<br/>
+                  - Rozdać ulotki<br/>
+                  - Promować posty w social media<br/>
+                  - Skierować kogoś, kto potrzebuje pomocy lub chce utworzyć związek na zakładzie
+
+            - name: consultant
+              title: Chcę pomagać<br/> jako konsultant(ka)!
+              text: Nie mam możliwości aktywnie uczestniczyć, ale chętnie będę w kontakcie aby według moich możliwości pomóc przy jednej lub więcej z tych czynności:<br/><br/>- Wykonywanie grafik np. plakatów, ulotek, bannerów, grafik www, infografik na social media<br/>- Porady prawne<br/>- Promocja postów w social media
+              selected: false
+
+            - name: member
+              title: Chcę uczestniczyć!
+              selected: true
+              text: >
+                  - Będę brać udział w głosowaniach<br/>
+                  - Według możliwości chcę uczestniczyć w spotkaniach lokalnej grupy<br/>
+                  - Od czasu do czasu lub częściej coś zaproponuję od siebie<br/>
+                  - Przyjdę na wydarzenia, czasem mogę pomóc w organizowaniu<br/>
+
+            - name: member-organizer
+              title: Będę organizatorem(ką)!
+              selected: false
+              text: >
+                - Od czasu do czasu lub częściej zaproponuję nowy bądź podchwycę istniejący temat, pociągnę go do przodu<br/>
+                - Zoorganizuję pikietę, demonstrację, spotkanie otwarte lub inną inicjatywę<br/>
+                - Będę regularnie uczęszczać na spotkania<br/>
+                - Mogę pełnić jakąś funkcję np. skarbnika/skarbniczki czy sekretarza/sekretarki
