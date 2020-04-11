@@ -6,3 +6,24 @@ theme: "dolacz-zsp-net-pl"
 params:
     keywords: "założyć związek zawodowy, związki zawodowe, przystąpić do związku, zsp, związek syndykalistów polski, organizacja pracownicza, obrona praw pracowników, kodeks pracy, walka pracownicza, syndykalizm, anarchosyndykalizm, umowa zlecenie, umowa o pracę, umowa o dzieło, zoganizuj się, umowy śmieciowe"
     front_title: "Razem jesteśmy silni i bezpieczni! Dołącz do nas!"
+
+    join_us:
+        variant_join_existing_section:
+            steps:
+                - title: Ogólne zasady i statut
+                  text: Zapoznaj się z naszymi najważniejszymi zasadami, oraz ze statutem funkcjonowania organizacji<br/><br/><a href="https://zsp.net.pl/statut" target="_blank"><img src="images/icons/ok-hand.png" class="link-image"> Zobacz statut</a>
+
+                - title: Wybór sekcji
+                  text: W zależności od potrzeb wybierz formę organizacyjną.<br/><br/>- <strong>Sekcja regionalna</strong>, aby komunikować się między branżami i sobie pomagać wzajemnie (taka forma jest u nas najpopularniejsza)<br/>- <strong>Sekcja branżowa</strong>, aby działać silnie w konkretnej branży na zasadzie pomocy wzajemnej i zachęcać do tworzenia związków zawodowych na zakładach<br/>- <strong>Związek zawodowy</strong> - formalna organizacja związkowa w miejscu pracy
+
+                - title: Zdecydowany/zdecydowana? Wypełnij i złóż ankietę członkowską online!
+                  text: "Wypełnij naszą ankietę członkowską zostawiając kontakt do siebie, a nasi członkowie się do Ciebie odezwą! // @TODO: DODAĆ LINKA"
+
+                - title: Zaproszenie na spotkanie
+                  text: Przyjdź na spotkanie lub dołącz do spotkania online, które zorganizują nasi członkowie. Zostaniesz na nie zaproszony/a.
+
+                - title: Głosowanie nad przyjęciem
+                  text: W zależności od lokalnej grupy, do której chcesz się zapisać przyjęcie na członka może być na pierwszym lub na innym kolejnym spotkaniu. Wszyscy członkowie lokalnej grupy będą musieli zagłosować - obowiązuje demokracja bezpośrednia.
+
+                - title: Masz dodatkowe pytania?
+                  text: Odezwij się do nas bezpośrednio, kontakt do nas znajdziesz na samym dole tej strony - w stopce :-)

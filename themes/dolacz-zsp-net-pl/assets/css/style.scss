@@ -193,135 +193,14 @@ h1, h2, h3, h4, h5, h6, figure {
     }
 }
 
-/**
- * engagement
- */
-
-$tabHeight: 550px;
-
-.engagement-tabs {
-    display: flex;
-    position: relative;
-    height: $tabHeight;
-    background-image: url(../images/bg_1.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}
-
-.engagement-tab {
-	width: 30%;
-	height: $tabHeight;
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 60px;
-	border-right: 1px solid white;
-	background-color: black;
-	opacity: 0.7;
-	transition: all 0.8s;
-	flex-direction: column;
-}
-
-.engagement-tab h5 {
-	font-family: "open sans", Arial, sans-serif;
-	font-size: 25px;
-	color: white;
-	font-weight: bold;
-	text-align: center;
-}
-
-.engagement-tab:hover {
-	cursor: pointer;
-	background: white;
-	border-top: 8px solid $brand-primary;
-	border-right: 0;
-	height: $tabHeight + 50px;
-	position: relative;
-	bottom: 5vh;
-	box-shadow: 0 5px 10px #7e7d7d;
-	opacity: 0.95;
-}
-
-.engagement-tab:hover .offerHead {
-	color: $brand-primary !important;
-	font-family: "open sans", Arial, sans-serif;
-	font-weight: 800;
-	text-align: center;
-}
-
-.engagement-type-description {
-	visibility: hidden;
-	height: 0;
-	color: white !important;
-	font-weight: bold;
-}
-
-.engagementContainer {
-	margin-bottom: 100px;
-}
-
-.engagement-tab:hover .engagement-type-description {
-	font-family: "open sans", Arial, sans-serif;
-	visibility: visible;
-	font-size: 20px;
-	margin-top: 20px;
-	color: black !important;
-	height: auto;
-}
+@import 'engagement', 'timeline';
 
 .zsp-sections {
 	text-align: left;
 }
 
-@media (max-width: 930px) {
-	.engagement-tabs {
-		display: inline-block;
-		height: $tabHeight * 4;
-	}
-
-	.engagement-tab {
-		width: 100%;
-		display: inline-table;
-		border-bottom: solid 2px white;
-	}
-
-	.engagement-type-description {
-		visibility: visible;
-	}
-
-	.engagement-tab:hover {
-		height: $tabHeight;
-		position: initial;
-	}
-
-	.engagementContainer {
-		margin-bottom: 250px !important;
-	}
-}
-
-@media (min-width: 930px) {
-	@media (max-width: 1748px) {
-		$tabExtendedHeight: $tabHeight + 5px;
-
-		.engagement-tabs {
-			height: $tabExtendedHeight;
-		}
-
-		.engagement-tab {
-			height: $tabExtendedHeight;
-			padding: 20px;
-		}
-
-		.engagement-tab:hover {
-			height: $tabExtendedHeight + 100px;
-		}
-
-		.engagement-type-description {
-			font-size: 15px !important;
-		}
-	}
+.link-image {
+	width: 26px;
 }
 
 .gtco-nav {
