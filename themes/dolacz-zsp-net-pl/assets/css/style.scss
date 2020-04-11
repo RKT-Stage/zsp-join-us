@@ -203,6 +203,23 @@ h1, h2, h3, h4, h5, h6, figure {
 	width: 26px;
 }
 
+.main-nav ul {
+	display: inline-block;
+}
+
+.header-iwa-ait-mention {
+	display: inline;
+}
+
+.zsp-logo-container {
+	padding-right: 0;
+	margin-right: -10px;
+}
+
+.menu-container {
+	padding-left: 0;
+}
+
 .gtco-nav {
 	position: fixed;
 	top: 0;
@@ -223,17 +240,10 @@ h1, h2, h3, h4, h5, h6, figure {
 		margin: 0;
 		padding: 0;
 		font-weight: bold;
-	
-		em {
-			color: $brand-white;
-			font-weight: 100;
-			font-style: normal;
-			@include transition(.2s);
-		}
-		a {
-			color: $brand-primary;
-			font-weight: 700;
-			@include transition(.4s);
+		float: right;
+
+		img {
+			width: 58px;
 		}
 	}
 	
@@ -390,14 +400,6 @@ h1, h2, h3, h4, h5, h6, figure {
 						}
 					}
 				}
-			}
-		}
-		#gtco-logo {
-		    em {
-		        color: $brand-black;
-		    }
-			a {
-			    color: $brand-primary;
 			}
 		}
 	}
