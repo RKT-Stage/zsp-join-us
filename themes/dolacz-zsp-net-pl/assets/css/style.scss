@@ -245,6 +245,10 @@ h1, h2, h3, h4, h5, h6, figure {
 		img {
 			width: 58px;
 		}
+
+		@media screen and (max-width: $screen-sm) {
+			float: none;
+		}
 	}
 	
 	.menu-1, .menu-2 {
