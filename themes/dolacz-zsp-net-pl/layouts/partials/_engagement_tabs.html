@@ -2,7 +2,7 @@
     <div class="engagement-tabs">
 
         {{ range $tab := .tabs }}
-        <div class="engagement-tab">
+        <div class="engagement-tab" data-role-initially-selected="{{ $tab.selected }}">
             <h5 class="offerHead">{{ safeHTML $tab.title }}</h5>
             <p class="engagement-type-description">
                 {{ safeHTML $tab.text }}

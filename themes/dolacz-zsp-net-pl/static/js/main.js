@@ -269,9 +269,41 @@
 	};
 
 	
+	var engagementTabs = function () {
+		var container = $('#engagementTab');
+
+		/**
+		 * When a role (the image with hover) was selected
+		 *
+		 * @param {string} roleName
+		 */
+		function onRoleSelected(roleName) {
+			$('[data-on-role]', container).hide();
+			$('[data-on-role*="' + roleName + '"]', container).show();
+		}
+
+		function onLoadSelectInitialValue() {
+			$('[data-role-initially-selected="true"]', container).click();
+		}
+
+		/**
+		 * Event bound to images with hover
+		 * Checkboxes support
+		 */
+		$('.engagement-tab').click(function (element) {
+			var roleElement = $('[data-role]', element.currentTarget);
+			var currentlySelectedRole = roleElement.attr('data-role');
+
+			$('.engagement-checkbox img').prop('src', 'images/icons/checkbox-unchecked.png');
+			roleElement.prop('src', 'images/icons/checkbox-checked.png');
+
+			onRoleSelected(currentlySelectedRole);
+		});
+
+		onLoadSelectInitialValue();
+	};
 
 
-	
 	$(function(){
 		parallax();
 		mobileMenuOutsideClick();
@@ -284,7 +316,6 @@
 		dropdown();
 		goToTop();
 		loaderPage();
+		engagementTabs();
 	});
-
-
 }());
