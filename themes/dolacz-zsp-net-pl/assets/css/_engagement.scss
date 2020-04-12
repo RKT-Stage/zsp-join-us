@@ -87,17 +87,20 @@ $tabHeight: 300px;
 @media (max-width: 930px) {
   .engagement-tabs {
     display: inline-block;
-    height: $tabHeight * 4;
+    height: ($tabHeight + 150px) * 4;
+    background-image: none;
   }
 
   .engagement-tab {
     width: 100%;
     display: inline-table;
     border-bottom: solid 2px white;
+    height: $tabHeight + 150px;
   }
 
   .engagement-type-description {
     visibility: visible;
+    height: $tabHeight;
   }
 
   .engagement-tab:hover {
@@ -112,10 +115,11 @@ $tabHeight: 300px;
 
 @media (min-width: 930px) {
   @media (max-width: 1748px) {
-    $tabExtendedHeight: $tabHeight + 5px;
+    $tabExtendedHeight: $tabHeight + 100px;
 
     .engagement-tabs {
       height: $tabExtendedHeight;
+      background-position: 0 -250px;
     }
 
     .engagement-tab {
