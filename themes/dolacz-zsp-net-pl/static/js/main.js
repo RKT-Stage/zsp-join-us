@@ -202,10 +202,10 @@
 							}
 
 							el.removeClass('item-animate');
-						},  k * 200, 'easeInOutExpo' );
+						},  k * 50, 'easeInOutExpo' );
 					});
 					
-				}, 100);
+				}, 25);
 				
 			}
 
@@ -303,6 +303,24 @@
 		onLoadSelectInitialValue();
 	};
 
+	var contact = function () {
+		/**
+		 * Hidding mail contact from bots
+		 */
+		$('[data-adr]').each(function (index, element) {
+			var tagName = element.tagName.toLowerCase();
+			element = $(element);
+
+			if (tagName === 'span') {
+				element.html(atob(element.attr('data-adr')));
+			}
+
+			else if (tagName === 'a') {
+				element.attr('href', atob(element.attr('data-adr')));
+			}
+		});
+	};
+
 
 	$(function(){
 		parallax();
@@ -317,5 +335,6 @@
 		goToTop();
 		loaderPage();
 		engagementTabs();
+		contact();
 	});
 }());
