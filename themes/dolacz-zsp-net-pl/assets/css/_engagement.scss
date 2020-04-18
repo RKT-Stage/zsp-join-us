@@ -136,3 +136,53 @@ $tabHeight: 300px;
     }
   }
 }
+
+/**
+ * Form links
+ */
+.important-link {
+  animation: pulsate 4s ease-out;
+  animation-iteration-count: infinite;
+
+  -webkit-animation: pulsate 4s ease-out;
+  -webkit-animation-iteration-count: infinite;
+
+  height: 50px;
+  display: inline-block;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    font-size: 16px;
+  }
+  25% {
+    font-size: 16px;
+  }
+  50% {
+    font-size: 20px;
+  }
+  75% {
+    font-size: 16px;
+  }
+  100% {
+    font-size: 16px;
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    font-size: 16px;
+  }
+  25% {
+    font-size: 16px;
+  }
+  50% {
+    font-size: 20px;
+  }
+  75% {
+    font-size: 16px;
+  }
+  100% {
+    font-size: 16px;
+  }
+}

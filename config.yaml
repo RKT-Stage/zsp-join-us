@@ -7,7 +7,7 @@ theme: "dolacz-zsp-net-pl"
 # common
 step_statut: &step_statut
     title: Ogólne zasady i statut
-    text: Zapoznaj się z naszymi najważniejszymi zasadami, oraz ze statutem funkcjonowania organizacji<br/><br/><a href="https://zsp.net.pl/statut" target="_blank"><img src="images/icons/ok-hand.png" class="link-image"> Zobacz statut</a>
+    text: Zapoznaj się z naszymi najważniejszymi zasadami, oraz ze statutem funkcjonowania organizacji<br/><br/><a href="https://zsp.net.pl/statut" target="_blank" class="important-link"><img src="images/icons/ok-hand.png" class="link-image"> Zobacz statut</a>
 
 step_organization_form: &step_organization_form
     title: Wybór typu sekcji
@@ -29,8 +29,8 @@ params:
               - <<: *step_statut
               - <<: *step_organization_form
 
-              - title: Zdecydowany/zdecydowana? Wypełnij i złóż ankietę członkowską online!
-                text: "Wypełnij naszą ankietę członkowską zostawiając kontakt do siebie, a nasi członkowie się do Ciebie odezwą! // @TODO: DODAĆ LINKA"
+              - title: Zdecydowany/zdecydowana? Wypełnij i złóż ankietę członkowską online!"
+                text: "Wypełnij naszą ankietę członkowską zostawiając kontakt do siebie, a nasi członkowie się do Ciebie odezwą! <br/><br/><a href=\"https://form.dolacz.zsp.net.pl/ankieta-czlonka\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Wypełnij i złóż ankietę</strong></a>"
 
               - title: Zaproszenie na spotkanie
                 text: Przyjdź na spotkanie lub dołącz do spotkania online, które zorganizują nasi członkowie. Zostaniesz na nie zaproszony/a.
@@ -47,7 +47,7 @@ params:
               - <<: *step_organization_form
 
               - title: Wypełnij wniosek o zapotrzebowanie na nową sekcję
-                text: "Wniosek zostanie rozpatrzony przez nas m.in. w kontekście tego, czy jest wystarczająca liczba chętnych ludzi aby według statutu utworzyć sekcję // @TODO LINK"
+                text: "Wniosek zostanie rozpatrzony przez nas m.in. w kontekście tego, czy jest wystarczająca liczba chętnych ludzi aby według statutu utworzyć sekcję <br/><br/><a href=\"https://form.dolacz.zsp.net.pl/wniosek-o-utworzenie-sekcji\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Wypełnij i złóż wniosek</strong></a>"
 
               - title: Porozmawiajmy
                 text: Odezwiemy się do Ciebie tak szybko, jak tylko damy radę aby ustalić co możemy w danej chwili zrobić
@@ -64,7 +64,7 @@ params:
           engagement: sympathetic
           steps:
               - title: Wypełnij ankietę sympatyka!
-                text: Odpowiedz na kilka pytań, abyśmy mogli się lepiej poznać
+                text: "Odpowiedz na kilka pytań, abyśmy mogli się lepiej poznać <br/><br/><a href=\"https://form.dolacz.zsp.net.pl/ankieta-sympatyka\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Wypełnij i złóż ankietę!</strong></a>"
 
               - title: Skontaktujemy się z Tobą
                 text: W zależności od wyborów w ankiecie będziemy mogli dodać Cię np. do odpowiedniej grupy na facebooku
@@ -75,7 +75,7 @@ params:
           engagement: consultant
           steps:
               - title: Wypełnij ankietę konsultanta!
-                text: Odpowiedz nam na kilka pytań, dzięki którym będziemy mogli się lepiej poznać i m.in. dodać Cię do odpowiedniej grupy na facebooku
+                text: "Odpowiedz nam na kilka pytań, dzięki którym będziemy mogli się lepiej poznać i m.in. dodać Cię do odpowiedniej grupy na facebooku <br/><br/><a href=\"https://form.dolacz.zsp.net.pl/ankieta-konsultanta\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Wypełnij i złóż ankietę</strong></a>"
 
               - <<: *step_contact
 
