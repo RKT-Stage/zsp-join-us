@@ -19,18 +19,14 @@ help: ## This help screen
 	@echo "> Non-root user that will own git repositories files: ${USER}"
 	@echo "> Non-root group id: ${GROUP_ID}"
 
-## Start a development server
-start@dev:
+start@dev: ## Start a development server
 	hugo server -D
 
-## Build the application
-build:
+build: ## Build the application
 	hugo
 
-## Build docker image
-image:
+image: ## Build docker image
 	${SUDO} docker build . -f ./Dockerfile -t ${IMAGE}:latest
 
-## Push docker image
-push_image:
+push_image: ## Push docker image
 	${SUDO} docker push ${IMAGE}:latest

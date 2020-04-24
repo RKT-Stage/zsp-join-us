@@ -35,6 +35,9 @@ params:
               - title: Zaproszenie na spotkanie
                 text: Przyjdź na spotkanie lub dołącz do spotkania online, które zorganizują nasi członkowie. Zostaniesz na nie zaproszony/a.
 
+              - title: Wprowadzenie
+                text: "Koniecznie zapoznaj się z naszym \"Pakietem startowym\" <br/><br/><a href=\"\" data-adr=\"aHR0cHM6Ly9mb3JtLmRvbGFjei56c3AubmV0LnBsL3Bha2lldC1zdGFydG93eQ==\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Zobacz \"pakiet startowy\"</strong></a>"
+
               - title: Głosowanie nad przyjęciem
                 text: W zależności od lokalnej grupy, do której chcesz się zapisać przyjęcie na członka może być na pierwszym lub na innym kolejnym spotkaniu. Wszyscy członkowie lokalnej grupy będą musieli zagłosować - obowiązuje demokracja bezpośrednia.
 
@@ -53,7 +56,7 @@ params:
                 text: Odezwiemy się do Ciebie tak szybko, jak tylko damy radę aby ustalić co możemy w danej chwili zrobić
 
               - title: Szkolenie
-                text: Nasi członkowie zorganizują szkolenie u Ciebie lub u nas. Dostaniesz materiały szkoleniowe oraz "pakiet startowy" z narzędziami ułatwiającymi pracę w swojej sekcji.
+                text: "Nasi członkowie zorganizują szkolenie u Ciebie lub u nas. Koniecznie zapoznaj się z pakietem startowym.<br/><br/><a href=\"\" data-adr=\"aHR0cHM6Ly9mb3JtLmRvbGFjei56c3AubmV0LnBsL3Bha2lldC1zdGFydG93eQ==\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Zobacz \"pakiet startowy\"</strong></a>"
 
               - title: Głosowanie nad przyjęciem
                 text: Na szczeblu krajowym zostanie zorganizowane referendum, w którym wszystkie sekcje ZSP muszą podjąć uchwałę o przyjęciu nowej sekcji
