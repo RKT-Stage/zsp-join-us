@@ -10,8 +10,8 @@ step_statut: &step_statut
     text: Zapoznaj się z naszymi najważniejszymi zasadami, oraz ze statutem funkcjonowania organizacji<br/><br/><a href="https://zsp.net.pl/statut" target="_blank" class="important-link"><img src="images/icons/ok-hand.png" class="link-image"> Zobacz statut</a>
 
 step_organization_form: &step_organization_form
-    title: Wybór typu sekcji
-    text: W zależności od potrzeb wybierz formę organizacyjną.<br/><br/>- <strong>Sekcja regionalna</strong>, aby komunikować się między branżami i sobie pomagać wzajemnie (taka forma jest u nas najpopularniejsza)<br/>- <strong>Sekcja branżowa</strong>, aby działać silnie w konkretnej branży na zasadzie pomocy wzajemnej i zachęcać do tworzenia związków zawodowych na zakładach<br/>- <strong>Związek zawodowy</strong> - formalna organizacja związkowa w miejscu pracy
+    title: Wybór typu związku
+    text: W zależności od potrzeb wybierz formę organizacyjną.<br/><br/>- <strong>Związek regionalny</strong>, aby komunikować się między branżami i sobie pomagać wzajemnie (taka forma jest u nas najpopularniejsza)<br/>- <strong>Związek branżowy</strong>, aby działać silnie w konkretnej branży na zasadzie pomocy wzajemnej i zachęcać do tworzenia związków zawodowych na zakładach<br/>- <strong>Związek zakładowy (związek zawodowy)</strong> - formalna organizacja związkowa w miejscu pracy
 
 step_contact: &step_contact
     title: Masz dodatkowe pytania?
@@ -23,7 +23,7 @@ params:
     front_title: "Solidarność! Pomoc wzajemna! Dołącz do nas!"
 
     join_us:
-        - title: "> Chcę dołączyć do istniejącej sekcji ZSP wypisanej powyżej"
+        - title: "> Chcę dołączyć do istniejącej organizacji związkowej ZSP wypisanej powyżej"
           engagement: member-organizer,member
           steps:
               - <<: *step_statut
@@ -43,14 +43,14 @@ params:
 
               - <<: *step_contact
 
-        - title: "> Jestem z innego miasta i innej branży, chcę założyć nową sekcję"
+        - title: "> Jestem z innego miasta i innej branży, chcę założyć nowy związek"
           engagement: member-organizer,member
           steps:
               - <<: *step_statut
               - <<: *step_organization_form
 
               - title: Wypełnij ankietę członkowską online
-                text: "To nic trudnego! Wypełnij naszą ankietę członkowską online, zostaw do siebie kontakt, skontaktujemy się z Tobą. Jeżeli w Twojej branży lub lokalizacji nie ma aktywnej sekcji to wspólnie opracujemy plan utworzenia nowej sekcji.<br/><br/><a href=\"\" data-adr=\"aHR0cHM6Ly9mb3JtLmRvbGFjei56c3AubmV0LnBsL3duaW9zZWstby11dHdvcnplbmllLXNla2NqaQ==\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Wypełnij i złóż wniosek</strong></a>"
+                text: "To nic trudnego! Wypełnij naszą ankietę członkowską online, zostaw do siebie kontakt, skontaktujemy się z Tobą. Jeżeli w Twojej branży lub lokalizacji nie ma aktywnego związku to wspólnie opracujemy plan utworzenia nowego związku.<br/><br/><a href=\"\" data-adr=\"aHR0cHM6Ly9mb3JtLmRvbGFjei56c3AubmV0LnBsL3duaW9zZWstby11dHdvcnplbmllLXNla2NqaQ==\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Wypełnij i złóż wniosek</strong></a>"
 
               - title: Porozmawiajmy
                 text: Odezwiemy się do Ciebie tak szybko, jak tylko damy radę aby ustalić co możemy w danej chwili zrobić
@@ -62,7 +62,7 @@ params:
                 text: "Nasi członkowie zorganizują szkolenie u Ciebie lub u nas. Koniecznie zapoznaj się z pakietem startowym.<br/><br/><a href=\"\" data-adr=\"aHR0cHM6Ly9mb3JtLmRvbGFjei56c3AubmV0LnBsL3Bha2lldC1zdGFydG93eQ==\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Zobacz \"pakiet startowy\"</strong></a>"
 
               - title: Głosowanie nad przyjęciem
-                text: Na szczeblu krajowym zostanie zorganizowane referendum, w którym wszystkie sekcje ZSP muszą podjąć uchwałę o przyjęciu grupy inicjatywnej jako sekcji ZSP
+                text: Na szczeblu krajowym zostanie zorganizowane referendum, w którym wszystkie związki ZSP muszą podjąć uchwałę o przyjęciu grupy inicjatywnej jako związku ZSP
 
               - <<: *step_contact
 
