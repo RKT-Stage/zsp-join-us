@@ -50,16 +50,19 @@ params:
               - <<: *step_organization_form
 
               - title: Wypełnij ankietę członkowską online
-                text: "To nic trudnego! Wypełnij naszą ankietę członkowską online, zostaw do siebie kontakt, skontaktujemy się z Tobą. Jeżeli w Twojej branży lub lokalizacji nie ma aktywnej sekcji to wspólnie opracujemy plan utworzenia nowej sekcji lub poczekamy na kolejne zgłoszenia. <br/><br/><a href=\"\" data-adr=\"aHR0cHM6Ly9mb3JtLmRvbGFjei56c3AubmV0LnBsL3duaW9zZWstby11dHdvcnplbmllLXNla2NqaQ==\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Wypełnij i złóż wniosek</strong></a>"
+                text: "To nic trudnego! Wypełnij naszą ankietę członkowską online, zostaw do siebie kontakt, skontaktujemy się z Tobą. Jeżeli w Twojej branży lub lokalizacji nie ma aktywnej sekcji to wspólnie opracujemy plan utworzenia nowej sekcji.<br/><br/><a href=\"\" data-adr=\"aHR0cHM6Ly9mb3JtLmRvbGFjei56c3AubmV0LnBsL3duaW9zZWstby11dHdvcnplbmllLXNla2NqaQ==\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Wypełnij i złóż wniosek</strong></a>"
 
               - title: Porozmawiajmy
                 text: Odezwiemy się do Ciebie tak szybko, jak tylko damy radę aby ustalić co możemy w danej chwili zrobić
+
+              - title: Status grupy inicjatywnej
+                text: Według naszego statutu 2 osoby są potrzebne do założenia tzw. "grupy inicjatywnej" regionalnej, oraz 1 osobę w przypadku zakładu pracy.
 
               - title: Szkolenie
                 text: "Nasi członkowie zorganizują szkolenie u Ciebie lub u nas. Koniecznie zapoznaj się z pakietem startowym.<br/><br/><a href=\"\" data-adr=\"aHR0cHM6Ly9mb3JtLmRvbGFjei56c3AubmV0LnBsL3Bha2lldC1zdGFydG93eQ==\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Zobacz \"pakiet startowy\"</strong></a>"
 
               - title: Głosowanie nad przyjęciem
-                text: Na szczeblu krajowym zostanie zorganizowane referendum, w którym wszystkie sekcje ZSP muszą podjąć uchwałę o przyjęciu nowej sekcji
+                text: Na szczeblu krajowym zostanie zorganizowane referendum, w którym wszystkie sekcje ZSP muszą podjąć uchwałę o przyjęciu grupy inicjatywnej jako sekcji ZSP
 
               - <<: *step_contact
 
@@ -74,46 +77,31 @@ params:
 
               - <<: *step_contact
 
-        - title: "> Chcę pomagać przy konkretnych pracach jako konsultant"
-          engagement: consultant
-          steps:
-              - title: Wypełnij ankietę konsultanta!
-                text: "Odpowiedz nam na kilka pytań, dzięki którym będziemy mogli się lepiej poznać i m.in. dodać Cię do odpowiedniej grupy na facebooku <br/><br/><a href=\"\" data-adr=\"aHR0cHM6Ly9mb3JtLmRvbGFjei56c3AubmV0LnBsL2Fua2lldGEta29uc3VsdGFudGEK\" target=\"_blank\" rel=\"nofollow\" class=\"important-link\"><img src=\"images/icons/ok-hand.png\" class=\"link-image\"> <strong>Wypełnij i złóż ankietę</strong></a>"
-
-              - <<: *step_contact
-
     engagement:
         tabs:
             - name: sympathetic
               title: Będę sympatykiem(czką)!
               selected: false
               text: >
-                  Nie mam możliwości aktywnie uczestniczyć, ale mogę od czasu do czasu wykonywać któreś z czynności:<br/><br/>
-                  - Przyjść na pikietę, demonstrację<br/>
-                  - Rozkleić plakaty<br/>
-                  - Rozdać ulotki<br/>
-                  - Promować posty w social media<br/>
-                  - Skierować kogoś, kto potrzebuje pomocy lub chce utworzyć związek na zakładzie
-
-            - name: consultant
-              title: Chcę pomagać<br/> jako konsultant(ka)!
-              text: Nie mam możliwości aktywnie uczestniczyć, ale chętnie będę w kontakcie aby według moich możliwości pomóc przy jednej lub więcej z tych czynności:<br/><br/>- Wykonywanie grafik np. plakatów, ulotek, bannerów, grafik www, infografik na social media<br/>- Porady prawne<br/>- Promocja postów w social media
-              selected: false
+                Nie mam możliwości aktywnie uczestniczyć, ale mogę od czasu do czasu wykonywać któreś z czynności według moich możliwości:<br/><br/>
+                - Udzielać porad prawnych<br/>
+                - Przygotowywać grafiki pod plakaty, ulotki, infografiki, strony WWW<br/>
+                - Przyjść na pikietę, demonstrację<br/>
+                - Rozkleić plakaty<br/>
+                - Rozdać ulotki<br/>
+                - Promować posty w social media<br/>
+                - Skierować kogoś, kto potrzebuje pomocy lub chce utworzyć związek na zakładzie
 
             - name: member
-              title: Chcę uczestniczyć!
+              title: Chcę być członkiem/członkinią!
               selected: true
               text: >
+                  Według możliwości, każdemu według potrzeb - członek nie ma obowiązku robienia wszystkiego, może poruszać się w obszarze, w którym dobrze się czuje.<br/><br/>
                   - Będę brać udział w głosowaniach<br/>
                   - Według możliwości chcę uczestniczyć w spotkaniach lokalnej grupy<br/>
                   - Od czasu do czasu lub częściej coś zaproponuję od siebie<br/>
-                  - Przyjdę na wydarzenia, czasem mogę pomóc w organizowaniu<br/>
-
-            - name: member-organizer
-              title: Będę organizatorem(ką)!
-              selected: false
-              text: >
-                - Od czasu do czasu lub częściej zaproponuję nowy bądź podchwycę istniejący temat, pociągnę go do przodu<br/>
-                - Zoorganizuję pikietę, demonstrację, spotkanie otwarte lub inną inicjatywę<br/>
-                - Będę regularnie uczęszczać na spotkania<br/>
-                - Mogę pełnić jakąś funkcję np. skarbnika/skarbniczki czy sekretarza/sekretarki
+                  - Przyjdę na wydarzenia, czasem mogę pomóc w organizowaniu lub sam/sama zorganizuję<br/>
+                  - Można mnie wybrać na skarbnika lub sekretarza &nbsp;<i><small>(jeżeli zgłoszę kandydaturę)</small></i><br/>
+                  - Będę prowadzić sprawy pracownicze lub pomagać je rozwiązywać &nbsp;<i><small>(jeśli się podejmę tego)</small></i><br/>
+                  - Mogę kontaktować się z mediami &nbsp;<i><small>(jeśli się zgłoszę do tego)</small></i><br/>
+                  - Napiszę artykuł od czasu do czasu &nbsp;<i><small>(jeśli się zgłoszę do tego)</small></i>
