@@ -1,6 +1,6 @@
 baseURL: "https://dolacz.zsp.net.pl"
 languageCode: "pl-pl"
-title: "Bądź bezpieczniejszy, bądź zorganizowany! Dołącz do ZSP!"
+title: "Dołącz do ZSP!"
 description: "ZSP - oddolna organizacja pracownicza, walczmy o swoje prawa! Poznaj nas, i dołącz do nas :-)"
 theme: "dolacz-zsp-net-pl"
 
@@ -90,7 +90,7 @@ params:
                 - Rozkleić plakaty<br/>
                 - Rozdać ulotki<br/>
                 - Promować posty w social media<br/>
-                - Skierować kogoś, kto potrzebuje pomocy lub chce utworzyć związek na zakładzie
+                - Wskazać komuś, kto potrzebuje pomocy, z kim powinien się skontaktować, by uzyskać pomoc
 
             - name: member
               title: Chcę być członkiem/członkinią!
